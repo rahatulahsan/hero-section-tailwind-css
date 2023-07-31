@@ -7,7 +7,16 @@ module.exports = {
     "'*.{html,js}'"
   ],
   theme: {
-    extend: {},
+    fontFamily: {
+      serif: ['Crimson Text', 'serif'],
+      sans: ['DM Sans', 'sans-serif'],
+    },
+    extend: {
+      colors:{
+        herocolor: "#92003B",
+        herolights: "#ff7be5"
+      },
+    },
   },
   plugins: [],
 }
